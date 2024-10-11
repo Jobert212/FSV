@@ -1,0 +1,117 @@
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(32, 78, 121);
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #e04430;
+  color: white;
+}
+
+html {
+  background-color: rgb(196, 192, 192);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.welcome-text {
+}
+.bridges-logo {
+  width: 35%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.link-content {
+  text-decoration: none;
+  color: white;
+  text-decoration: underline;
+}
+a:hover {
+  color: #e04430;
+}
+.link-footer {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  max-width: 1000px; /* Maximale Breite für Smartphones */
+  width: 100%; /* Volle Breite nutzen */
+  padding: 20px; /* Innenabstand */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Schatten für den Inhalt */
+  margin: 0px; /* Rand um den Inhalt */
+  margin-top: 10px;
+  border-radius: 8px; /* Abgerundete Ecken */
+  border-end-end-radius: 0px;
+  border-bottom-left-radius: 00px;
+  background-color: rgb(32, 78, 121);
+  line-height: 1, 8;
+}
+
+.vereinigung-text {
+  font-size: 160%;
+  display: flex;
+  position: relative;
+}
+.topnav > :last-child {
+  position: absolute; /* Macht das letzte Element absolut positioniert */
+  right: 2%; /* Schiebt es nach ganz rechts */
+  top: 13%; /* Optionale Anpassung für vertikale Positionierung */
+}
+
+.instagram {
+  background-image: url("/src/Instagramm.jpeg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 55px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 4%;
+}
+.footer {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 45px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  border-top: rgb(196, 192, 192) solid;
+  border-width: 0.3rem;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+.logo-klein {
+  width: 2%;
+  margin-top: 0.3rem;
+}

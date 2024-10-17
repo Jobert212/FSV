@@ -1,0 +1,47 @@
+/* Style the navigation menu */
+.topburger {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topburger #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topburger a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topburger a.icon {
+  background: #e04430;
+  display: block;
+  position: absolute;
+  right: 45%;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topburger a:hover {
+  background-color: #e04430;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: white;
+  color: #e04430;
+}
+
+.burger-active {
+  background-color: white;
+  color: #e04430;
+  width: 50%;
+}

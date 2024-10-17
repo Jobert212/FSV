@@ -1,8 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+html {
+  width: 100%;
+  margin-left: -12px;
+  background-color: rgb(32, 78, 121);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+
 .topnav {
   background-color: white;
   overflow: hidden;
   border-radius: 10px;
   position: relative;
+  width: 100%;
+  max-width: 1000px; /* Maximale Breite für Smartphones */
 }
 
 /* Style the links inside the navigation bar */
@@ -28,19 +42,11 @@
 }
 
 html {
-  background-color: rgb(196, 192, 192);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: white;
 }
 .welcome-text {
 }
 .bridges-logo {
   width: 35%;
-}
-
-body {
-  display: flex;
-  justify-content: center;
 }
 
 .link-content {
@@ -68,6 +74,8 @@ a:hover {
   border-bottom-left-radius: 00px;
   background-color: rgb(32, 78, 121);
   line-height: 1, 8;
+  display: flex;
+  flex-direction: column;
 }
 
 .vereinigung-text {
@@ -97,7 +105,6 @@ a:hover {
   background-color: white;
   color: black;
   width: 100%;
-  height: 45px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   display: flex;
@@ -106,12 +113,49 @@ a:hover {
   font-size: larger;
   border-top: rgb(196, 192, 192) solid;
   border-width: 0.3rem;
+  max-width: 1000px; /* Maximale Breite für Smartphones */
+  padding: 20px; /* Innenabstand */
 }
-.flex-container {
+.topburger {
+  position: absolute; /* oder fixed */
+  top: 0;
+  left: 0; /* oder center */
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
 }
+
 .logo-klein {
-  width: 2%;
-  margin-top: 0.3rem;
+  width: 25px;
+  height: 35x;
+}
+.flex-container {
+  padding-bottom: 2%;
+  padding-top: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.logo-klein-mobile {
+  width: 25px;
+  height: 35px;
+  padding: 5px;
+  margin-right: 5px;
+}
+@media (max-width: 600px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .topnav {
+    visibility: hidden;
+    display: none !important;
+  }
+}
+
+@media (min-width: 601px) {
+  .topburger {
+    visibility: hidden;
+    display: none !important;
+  }
 }

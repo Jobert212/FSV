@@ -15,3 +15,18 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+@media (max-width: 600px) {
+  .flex-herren2 {
+    display: block;
+    flex-direction: row;
+    text-align: center;
+  }
+  .img_Herren2mannschaftsfoto {
+    -webkit-box-shadow: 5px 5px 15px 10px #767982;
+    box-shadow: 5px 5px 15px 10px #767982;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  /* Stile für Tablets */
+}

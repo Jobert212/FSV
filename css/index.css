@@ -115,7 +115,9 @@ a:hover {
   border-top: rgb(196, 192, 192) solid;
   border-width: 0.3rem;
   max-width: 1000px; /* Maximale Breite für Smartphones */
-  padding: 20px; /* Innenabstand */
+
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .topburger {
   position: absolute; /* oder fixed */

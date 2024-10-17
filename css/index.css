@@ -1,15 +1,14 @@
 body {
   display: flex;
   justify-content: center;
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 html {
   width: 100%;
-  margin-left: -12px;
   background-color: rgb(32, 78, 121);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: white;
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 .topnav {

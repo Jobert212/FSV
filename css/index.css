@@ -135,6 +135,7 @@ a:hover {
   padding-top: 0.5%;
   padding-left: 2%;
   padding-right: 2%;
+  align-items: center;
 }
 .logo-klein-mobile {
   width: 25px;

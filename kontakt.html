@@ -6,7 +6,12 @@
       type="text/javascript"
       src="https://www.fussball.de/widgets.js"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/burgermenue.css" />
   </head>
 
   <body>
@@ -20,6 +25,30 @@
           <a href="herren2.html">2.Herren</a>
           <a href="https://fsv-vorhop-schoenewoerde.fan12.de/">Shop</a>
           <img class="logo-klein" src="src/test.jpeg" />
+        </div>
+        <div style="display: flex; flex-direction: row" class="topburger">
+          <a href="#home" class="burger-active">Kontakt</a>
+          <!-- Navigation links (hidden by default) -->
+          <div style="width: 80%" id="myLinks">
+            <br />
+            <br />
+            <a href="index.html">Home</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="neuigkeiten.html">Neuigkeiten</a>
+            <a href="herren1.html">1.Herren</a>
+            <a href="herren2.html">2.Herren</a>
+            <a href="https://fsv-vorhop-schoenewoerde.fan12.de/">Shop</a>
+          </div>
+
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+          <img
+            style="margin-left: 37%"
+            class="logo-klein-mobile"
+            src="src/test.jpeg"
+          />
         </div>
         <div>
           Der Verein:
@@ -42,5 +71,18 @@
         <a class="link-footer" href="links.html">Links</a>
       </div>
     </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+      type = "text/javascript";
+      src = "https://www.fussball.de/widgets.js";
+    </script>
   </body>
 </html>

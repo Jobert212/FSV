@@ -90,18 +90,6 @@ a:hover {
   top: 13%; /* Optionale Anpassung für vertikale Positionierung */
 }
 
-.instagram {
-  background-image: url("/src/Instagramm.jpeg");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 80px;
-  height: 55px;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  border-radius: 4%;
-}
 .footer {
   background-color: white;
   color: black;
@@ -114,7 +102,7 @@ a:hover {
   font-size: larger;
   border-top: rgb(196, 192, 192) solid;
   border-width: 0.3rem;
-  max-width: 1000px; /* Maximale Breite für Smartphones */
+  max-width: 2000px; /* Maximale Breite für Smartphones */
 
   padding-top: 20px;
   padding-bottom: 20px;
